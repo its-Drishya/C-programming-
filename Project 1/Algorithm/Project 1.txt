@@ -1,0 +1,149 @@
+Step 1: Start
+Step 2: Declare variable c
+Step 3: Display "Input the character whose ASCII value is to be determined"
+Step 4: Input the character
+Step 5: Display the corresponding ASCII value
+Step 6: Stop
+
+
+Step 1: Start
+Step 2: Declare variable a
+Step 3: Display "Input the ASCII value whose character is to be determined"
+Step 4: Input the ASCII value
+Step 5: Display the corresponding character
+Step 6: Stop
+
+
+Step 1: Start
+Step 2: Declare variable a, b
+Step 3: Display "Input two numbers"
+Step 4: Input two numbers
+Step 5: Sum = a + b, Difference = a - b, Product = a * b
+Step 6: Display Sum, Product, Difference
+Step 7: Stop
+
+
+Step 1: Start
+Step 2: Declare variable b,c,d
+Step 3: Display "Input the value of b, c, d"
+Step 4: Input the values of b, c, d
+Step 5: Result = (c*(b^3))/(d^2)
+Step 6: Display Result
+Step 7: Stop
+
+
+Step 1: Start
+Step 2: Declare variable r
+Step 3: Display "Input the radius of sphere 'r'"
+Step 4: Input radius r
+Step 5: Volume = 1.333*3.14*(r^3),Surface Area = 4*3.14*(r^2)
+Step 6: Display Volume, Surface Area
+Step 7: Stop
+
+
+Step 1: Start
+Step 2: Declare variable r
+Step 3: Display "Input the radius of circle 'r'"
+Step 4: Input radius r
+Step 5: Circumference = 2*3.14*r,Surface Area = 3.14*(r^2)
+Step 6: Display Circumference, Surface Area
+Step 7: Stop
+
+
+
+Step 1: Start
+Step 2: Declare variable x
+Step 3: Display "Input the value of x"
+Step 4: Input the value of x
+Step 5: Sum = 1 - 1-((x^2)/2!)+((x^4)/4!)+((x^6)/6!)+((x^8)/8!)-((x^10)/10!)
+Step 6: Display Sum
+Step 7: Stop
+
+
+
+Step 1: Start
+Step 2: Declare variable C
+Step 3: Display "Input the temperature in Celcius"
+Step 4: Input temperature in celcuis
+Step 5: F = (1.8*C)=32
+Step 6: Display F
+Step 7: Stop
+
+
+
+Step 1: Start
+Step 2: Declare variable C
+Step 3: Display "Input the temperature in Celcius"
+Step 4: Input temperature in celcuis
+Step 5: F = (1.8*C)=32
+Step 6: Display F
+Step 7: Stop
+
+
+
+Step 1: Start
+Step 2: Declare variable P, T, R
+Step 3: Display "Input the Principle, Rate and Time"
+Step 4: Input Principle, Rate and Time
+Step 5: I = (P*T*R)/100, A = P + I
+Step 6: Display I and A
+Step 7: Stop
+
+
+Step 1: Start
+Step 2: Declare variable P, V, T
+Step 3: Display "Input the Pressure, Volume and Temperature of the automobile tyre"
+Step 4: Input Pressure, Volume and Temperature
+Step 5: M = (P*V)/((T + 460)*0.37)
+Step 6: Display M
+Step 7: Stop
+
+
+
+Step 1: Start
+Step 2: Declare variable a, b, c
+Step 3: Display "Input the coefficient of x^2,x and constant of the quadratic equation"
+Step 4: Input coefficient of x^2, x and constant(i.e a,b,c)
+Step 5: Check if (b^2)-(4*a*c)>0
+	Step 5.1: If Step 5 is true
+		Step 5.1.1: Check if (b^2)-(4*a*c)==0
+			Step 5.1.1.1: If Step 5.1.1 is true
+				Step 5.1.1.1.1: The roots are equal, Alpha = Beta = -b/(2*a)
+				Step 5.1.1.1.2: Display Alpha, Beta
+
+			Step 5.1.1.2: If Step 5.1.1 is false
+				Step 5.1.1.2.1: Alpha = (-b - ((b^2) - 4*a*c)^0.5)) / (2*a) 
+						Beta = (-b + ((b^2) - 4*a*c)^0.5)) / (2*a)
+				Step 5.1.1.2.2: Display Alpha, Beta
+	
+	Step 5.2: If Step 5 is false
+		Step 5.2.1: Display the roots are imaginary
+Step 6: Stop
+
+
+
+
+Step 1: Start
+Step 2: Declare variable g
+Step 3: Display "Input the mass in gram"
+Step 4: Input the mass in gram
+Step 5: kg = g/1000, gi= g%1000
+Step 6: Display kg and gi
+Step 7: Stop
+
+
+
+Step 1: Start
+Step 2: Declare variable idata, fdata, dtdata, cdata
+Step 3: Use Sizeof() function to determine size
+Step 4: Display the size of int idata, float fdata, double dtdata and character cdata
+Step 5: Stop
+
+
+
+
+
+
+
+
+

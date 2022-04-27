@@ -1,0 +1,84 @@
+Step 1: Start
+Step 2: Declare variable A, B
+Step 3: Input A = 10, B = 5
+Step 4: Perform A = ++A + ++A & B = A-- - --B
+Step 5: Display the information
+Step 6: Stop
+
+
+Step 1: Start
+Step 2: Declare variable X
+Step 3: Display "Input a number"
+Step 4: Enter the number
+Step 5: Check if X\2 = 0
+	Step 5.1: If Step 5 is true
+		Step 5.2: Display the number is even
+	Step 5.1: If Step 5 is false
+		Step 5.2: Display the number is odd
+Step 6: Stop
+
+
+Step 1: Start
+Step 2: Declare variable a,b,c
+Step 3: Display "Input the value of a, b, c"
+Step 4: Input the values of a, b, c
+Step 5: Check a > b
+	Step 5.1: If Step 5 is true
+		Step 5.1.1: Check if a > c
+			Step 5.1.1.1: If Step 5.1.1 is true
+				Step 5.1.1.1.1: Display a is greatest
+			Step 5.1.1.2: If Step 5.1.1 is false
+				Step 5.1.1.2.1: Display c is greatest
+	Step 5.2: If Step 5 is false
+		Step 5.2.1: Check if b > c
+			Step 5.1.1.1: If Step 5.1.1 is true
+				Step 5.1.1.1.1: Display b is greatest
+			Step 5.1.1.2: If Step 5.1.1 is false
+				Step 5.1.1.2.1: Display c is greatest
+Step 6: Stop
+
+
+Step 1: Start
+Step 2: Declare variable a, b, c
+Step 3: Display "Input the coefficient of x^2,x and constant of the quadratic equation"
+Step 4: Input coefficient of x^2, x and constant(i.e a,b,c)
+Step 5: Check if (b^2)-(4*a*c)>0
+	Step 5.1: If Step 5 is true
+		Step 5.1.1: Check if (b^2)-(4*a*c)==0
+			Step 5.1.1.1: If Step 5.1.1 is true
+				Step 5.1.1.1.1: The roots are equal, Alpha = Beta = -b/(2*a)
+				Step 5.1.1.1.2: Display Alpha, Beta
+
+			Step 5.1.1.2: If Step 5.1.1 is false
+				Step 5.1.1.2.1: Alpha = (-b - ((b^2) - 4*a*c)^0.5)) / (2*a) 
+						Beta = (-b + ((b^2) - 4*a*c)^0.5)) / (2*a)
+				Step 5.1.1.2.2: Display Alpha, Beta
+	
+	Step 5.2: If Step 5 is false
+		Step 5.2.1: Display the roots are imaginary
+Step 6: Stop
+
+
+
+Step 1: Start
+Step 2: Declare variable x,hour,minute,second
+Step 3: Display "Input the time period to be converted"
+Step 4: Input the time in second
+Step 5: hour = x/1000, minute = hour%1000, second = (x%3600)%60 
+Step 6: Display hour, minute, second
+Step 7: Stop
+
+
+
+Step 1: Start
+Step 2: Declare variable weight, height1, height2
+Step 3: Display "Enter your height in feet and inches and your weight in kilogram"
+Step 4: Enter your height in feet (as height1) and inches as (height 2) and your weight in kilogram
+Step 5: inch = (height1*12) + height2, meter = inch*0.0254, ratio = weight/pow(meter,2)
+Step 6: Display inch, meter & ratio
+Step 7: Stop
+
+
+
+
+

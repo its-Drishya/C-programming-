@@ -1,0 +1,42 @@
+#include<stdio.h>
+int checker(int,int *,int);
+int main()
+{
+    int a[50],i,feel,tocheck;
+    printf("Enter the number of elements you want to add: ");
+    scanf("%d",&feel);
+    printf("Enter the %d elements you want to add: ",feel);
+    for (i=0;i<feel;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    for (i=0;i<feel;i++)
+    {
+        printf("The elements are ");
+        printf("%d",a[i]);
+        printf("\n");
+    }
+    printf("Enter the number you want to check: ");
+    scanf("%d",&tocheck);
+    if(checker(tocheck,a,feel))
+    {
+        printf("The element is present");
+    }
+    else
+        printf("Not present");
+    return 0;
+}
+int checker(int n,int *c,int feels)
+{
+    int e,flag;
+     for (e=0;e<feels;e++)
+    {
+        if(n==c[e])
+        
+        {
+            return 1;
+        }
+    
+    }
+    
+}
